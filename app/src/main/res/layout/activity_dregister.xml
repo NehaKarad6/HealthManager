@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neha.healthmanager.Dregister">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.neha.docregistertrial.MainActivity">
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LinlayMobileNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Mobile Number" />
+
+                <EditText
+                    android:id="@+id/edtMob"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="phone"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinlayAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_below="@+id/LinlayMobileNumber"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Address" />
+
+                <EditText
+                    android:id="@+id/EdtAdd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LinlayDOB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayAddress"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Date Of Birth" />
+
+                <EditText
+                    android:id="@+id/Edtdob"
+                    android:hint="dd/mm/yy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="phone"
+                    android:maxLength="13"
+                    android:padding="10dip" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LinlayWeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_below="@+id/LinlayDOB"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Qualification" />
+
+                <EditText
+                    android:id="@+id/EdtQualification"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LinlayBloodGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayWeight"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Specialization" />
+
+                <EditText
+                    android:id="@+id/EdtSpecialization"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+
+                    android:padding="10dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinlayEmergencyContact"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayBloodGroup"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Registration number" />
+
+                <EditText
+                    android:id="@+id/EdtRegno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+
+                    android:padding="10dip" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Linlaypassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayEmergencyContact"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Password" />
+
+                <EditText
+                    android:id="@+id/Edtpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:inputType="textPassword"
+                    android:background="@android:drawable/editbox_background_normal"
+
+
+                    android:padding="10dip" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="50dp"
+                android:id="@+id/BtnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_below="@+id/Linlaypassword"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnSub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:gravity="center"
+                    android:layout_weight="1"
+
+                    android:text="Submit" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>

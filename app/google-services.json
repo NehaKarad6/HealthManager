@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "229454533760",
+    "firebase_url": "https://healthmanager-68686.firebaseio.com",
+    "project_id": "healthmanager-68686",
+    "storage_bucket": "healthmanager-68686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229454533760:android:bd4998184aef0943",
+        "android_client_info": {
+          "package_name": "com.example.neha.healthmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229454533760-u7rd5o7qvheahnit8o987t037uvjjh8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neha.healthmanager",
+            "certificate_hash": "8191e7f7460f8b546d780d3fe719e76843878551"
+          }
+        },
+        {
+          "client_id": "229454533760-buegbpdmg01v004b1s2g18t4egmci4e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkrnka1ijypRGVhXpntxQsXnvdCv1GMTg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229454533760-buegbpdmg01v004b1s2g18t4egmci4e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.neha.healthmanager">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PLogin"/>
+        <activity android:name=".DLogin"/>
+        <activity android:name=".PRegister"/>
+
+        <activity android:name=".Patient_dash">
+        </activity>
+        <activity android:name=".PVitals">
+        </activity>
+        <activity android:name=".PDoctors">
+        </activity>
+        <activity android:name=".PEmergency">
+        </activity>
+        <activity android:name=".PMedications">
+        </activity>
+        <activity android:name=".PEmergencyContacts">
+        </activity>
+        <activity android:name=".PSignup">
+        </activity>
+        <activity android:name=".Doctor_dash">
+        </activity>
+        <activity android:name=".DSignup">
+        </activity>
+        <activity android:name=".Doctor_PatientLogin">
+        </activity>
+        <activity android:name=".ExistingPatients">
+        </activity>
+        <activity android:name=".AddNewPatient">
+        </activity>
+        <activity android:name=".Dregister">
+        </activity>
+        <activity android:name=".PInsurance">
+        </activity>
+        <activity android:name=".DMedications">
+        </activity>
+        <activity android:name=".DHistory">
+        </activity>
+        <activity android:name=".DVitals">
+        </activity>
+        <activity android:name=".DReports">
+        </activity>
+        <activity android:name=".DNewcase">
+        </activity>
+        <activity android:name=".History_Major">
+        </activity>
+        <activity android:name=".History_Minor">
+        </activity>
+        <activity android:name=".History_Details">
+        </activity>
+        <activity android:name=".DMeds">
+        </activity>
+        <activity android:name=".DVital_Details">
+        </activity>
+        <activity android:name=".PReports">
+        </activity>
+    </application>
+
+</manifest>

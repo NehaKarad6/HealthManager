@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.neha.healthmanager.DNewcase">
+
+            <LinearLayout
+                android:id="@+id/LinlayChiefComplaint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+
+                android:layout_marginRight="10dip"
+
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="ChiefComplaint" />
+
+                <EditText
+                    android:id="@+id/EdtChiefComplaint"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/LinlayOtherComplaints"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayChiefComplaint"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="OtherComplaints" />
+
+                <EditText
+                    android:id="@+id/EdtOtherComplaints"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/LinlayInvestigations"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/LinlayOtherComplaints"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Investigations" />
+
+                <EditText
+                    android:id="@+id/EdtInvestigations"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/Medication"
+                android:layout_below="@+id/LinlayInvestigations"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Medication" />
+
+                <EditText
+                    android:id="@+id/EdtMedication"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/Dosage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/Medication"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Instructions" />
+
+                <EditText
+                    android:id="@+id/EdtInstructions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/Type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/Dosage"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Type" />
+
+
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/type"
+                    android:prompt="@string/Type" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BtnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_below="@+id/Type"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnSubmitcase"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:gravity="center"
+                    android:layout_weight="1"
+
+                    android:text="Submit" />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

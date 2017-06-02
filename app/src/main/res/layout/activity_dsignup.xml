@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.neha.healthmanager.DSignup">
+
+    <ImageView
+        android:layout_width="365dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_applogo"
+        android:paddingTop="40dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:layout_editor_absoluteX="121dp"></ImageView>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="55dp"
+        android:id="@+id/googlebtn"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:paddingTop="350dp"></com.google.android.gms.common.SignInButton>
+
+
+</RelativeLayout>

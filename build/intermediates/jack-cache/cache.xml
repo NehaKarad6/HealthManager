@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/neha/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.3.0-736fbb1a5ff7d7c58dafe7084659e3b534160c4a.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/9ad129e00cc0308a98ee12eac5316acff25d8980/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e390e2f887d04207d879d52c25496b2529ff100d.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/6d4b514f26d4f78c1979ffc967fcee66d3ceec55/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="7c2aae98605fef5de8e7195e9b59078861349135">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c1606e001abc55631da7a7579bc61d25af685457.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/8b11002bd69bfd8b95b6bf7f6ada1e252b22879f/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e57083c17509be3ef0a0b6c449dcc38a600a9b98.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/d1f562b00341c6b213eb4767412049b05161c82b/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c4d55db28fb818b9b62e01abdd36036bbe345052.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/1ee07891cadbabf2f0990817b0fe77951e925c6c/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-fc4f25891f2d3c0524a28111a4ce824c4ca082c4.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/74777409e0ef22af57c34bbb89128b7943c5a0c5/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9c40dc2ff10e310c17cd8d9393ec7fef41ed2e2c.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/c3c098c557161fbc71ead80c6a349226beda5a28/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-92f823ed5830510d284fb73950b8485c0e887f96.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/572214316c103fe0b184df42274a3c0658401346/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-38167e84be1da04f50c2bfda7784523515bb0bc5.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/a260a01cd973464011d3bad5822c3fb7c11bf981/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b31399eeb2c6acf52d58ad9b845f34a4692f7e29.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/c751066373e1db3a908d227809fe9a94b73da0ca/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-7ddad694dd0fe1daf02d3f56073d69593443dcf6.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/29e2ca735e0c88a96d70a46a5a874a42bcf2091f/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-7f4cf7466279c802a727cb5df715a93bdab13c71.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/b9c9fb155ca528418df1630ff8e091d7495f45cf/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e1cea718ebc845e9905deb04433b5fb83b23fc62.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/380a7f6507512f9ddda76a0ee40f693c9d71bc1c/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="cb21c44f04a700d3a9f7376d4753ea848e5832c4">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9d736407ab7908f10c266ac96f7443a6cc4b9022.jar" />
+    </item>
+    <item
+        jar="/home/neha/Android/Sdk/platforms/android-25/android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-5d9b29afd15fdd9c8f37ab1c206b59c5261c2df1.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/378e5a00e10e2bd799e5983df8032365dedde4ea/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-15a0c590a586866ee048ddf0e6906d9c3d80081d.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/fc1719c0dfb97cb75e84f5237a713e271b4ff895/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-99a24ebe0ddaa20334bf9800844f7aab028adf24.jar" />
+    </item>
+    <item
+        jar="/home/neha/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-80bab89eaf0d1a560025e28445d2954bd0815a1f.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/3cfaf7725421ac22637077b337fe7251899e3db9/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8dcfff86a30ca84bcea8d82647aecff48d7df8c0.jar" />
+    </item>
+    <item
+        jar="/home/neha/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        revision="25.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/library-1.0.19-63b0668d7fba5aa30fd43ecff62783f1d76045fb.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/42c7e1d0ec0576579d2bdf62a821c363218aec90/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-212180cca8cb48ed67d363d85a224fbefe7bd862.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/9ae64a6c4f4a62f0fa771337a4bfff357185c14c/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-da586c987ed05a9e440b884a8fd95803d5954396.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/d47462c5114e8fde58c03b31746dd1cfb187b1c3/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-31da9e7e98b0fee8674792eeb511f410a9d2e3f1.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/51e2b5300879e8f598b91d2fd8843e2b01db0402/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-2fa2bdecb996e820c9b3976d05e8ffbe296f1039.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/117aa0929340338b929d3772964660733ee5a470/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-a580690e2873b7673ed09d7ea41371f404d2d1ef.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/7732f32eeee93b63910bb67b2808dc50b49d5de3/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-a4d8183ddb587440686c798f188fb883df3a7923.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/d5eb01ac3be628845e3c38054d035cd58206e270/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d3ec26965740ce0fc99bfd28f82616f66d2ee1ca.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/43bf1d854254688cfee57cd67df333f19372ebdd/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e10a3aa3166caf56d7c382d8005de1fa4d4983ce.jar" />
+    </item>
+    <item
+        jar="/home/neha/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar"
+        revision="25.0.2"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/guava-19.0-817028c57bab5b5ef02beab1ca3811fb0472c2a0.jar" />
+    </item>
+    <item
+        jar="/home/neha/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/constraint-layout-solver-1.0.2-f9e53d7f11212ee05709a3e5cd0bd0b8a965606a.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/197cb944635a8cc784db04d9f799539be98ff2df/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d508d2f060b9b7fb9e3d2ececde5f51c74da5d4d.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/c6ecf7b221b7feac137b776d2a54b84ca1781717/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-4786b996708c1670d8a799c391e654ae7bdc2d17.jar" />
+    </item>
+    <item
+        jar="/home/neha/.android/build-cache/239755027f8b89c59d81877df104c24fc5577448/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/neha/Downloads/HealthManager/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-a8b1659ed30054972c16e84694ed821207859e28.jar" />
+    </item>
+
+</items>

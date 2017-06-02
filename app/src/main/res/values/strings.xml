@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HealthManager</string>
+
+
+    <string name="title_activity_register_emergency">Register_emergency</string>
+    <string name="title_activity_patient__dash">Patient_Dash</string>
+    <string name="title_activity_patient_dash">Patient_dash</string>
+
+    <string name="mobilenumbererror">Enter a mobile number</string>
+    <string name="addresserror">Enter an address</string>
+    <string name="weighterror">Enter a valid weight</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="bloodgrperror">Enter a valid blood group</string>
+    <string name="emergencycontacterror">Enter emergency contact name</string>
+    <string name="relationerror">Enter a valid relation</string>
+    <string name="emergencymobileerror">Enter a valid emergency contact number</string>
+    <string name="qualificationerror">Enter qualification</string>
+    <string name="specializationerror">Enter specialization</string>
+    <string name="companynameerror">Enter company name</string>
+    <string name="nameerror">Enter name</string>
+    <string name="planerror">Enter pan name</string>
+
+    <string name="Type">select type</string>
+    <string-array name="type">
+        <item>Select type</item>
+        <item>Major</item>
+        <item>Minor</item>
+    </string-array>
+
+
+    <string name="BloodGroups">select blood group</string>
+
+    <string-array name="bloodgroup">
+        <item>O-ve</item>
+        <item>O+ve</item>
+        <item>A-ve</item>
+        <item>A+ve</item>
+        <item>B-ve</item>
+        <item>B+ve</item>
+        <item>AB-ve</item>
+        <item>AB+ve</item>
+    </string-array>
+</resources>

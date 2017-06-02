@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.neha.healthmanager.PMedications">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/Medication"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Medication" />
+
+                <EditText
+                    android:id="@+id/EdtMedication"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/Dosage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/Medication"
+                android:layout_marginRight="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Dosage" />
+
+                <EditText
+                    android:id="@+id/EdtDosage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/SideEffects"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/Dosage"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Side Effects" />
+
+                <EditText
+                    android:id="@+id/EdtSideEffects"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/BeginDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/ReasonTaking"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="BeginDate" />
+
+                <EditText
+                    android:id="@+id/EdtBeginDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="date"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ReasonTaking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/SideEffects"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="Reason Taking" />
+
+                <EditText
+                    android:id="@+id/EdtReasonTaking"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/StopDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_below="@+id/BeginDate"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:ems="5"
+                    android:text="StopDate" />
+
+                <EditText
+                    android:id="@+id/EdtStopDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:inputType="date"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:padding="10dip" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/BtnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_below="@+id/StopDate"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/SubmitMed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:gravity="center"
+                    android:layout_weight="1"
+
+                    android:text="Submit" />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
